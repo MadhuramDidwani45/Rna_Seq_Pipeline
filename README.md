@@ -90,29 +90,3 @@ git clone https://github.com/yourusername/RNASeq-Analysis-Pipeline.git
 cd RNASeq-Analysis-Pipeline
 ```
 
-# 2. Install Dependencies:
-```bash
-# Ensure all required tools and R packages are installed.
-# Refer to the System & Software Requirements section above.
-```
-
-# 3. Run the Pipeline:
-
-# Data Retrieval:
-# Execute the 'data.sh' script in the Data directory to download RNA-Seq datasets,
-# reference genome, and annotation files.
-```bash
-Data/data.sh
-```
-
-# Processing:
-# Run the 'rna_seq.sh' script in the Pipeline directory to perform quality control,
-# alignment, and quantification.
-```bash
-Pipeline/rna_seq.sh
-```
-
-# Analysis:
-# Use the R script 'DE_seq.R' in the bin directory (or follow the in-repository documentation)
-# to perform differential expression analysis and generate visual reports.
-Rscript bin/DE_seq.R
