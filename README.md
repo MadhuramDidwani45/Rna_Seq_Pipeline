@@ -85,7 +85,6 @@ This project provides a robust and flexible pipeline for processing RNA sequenci
 ---
 ## How to Get Started
 
-```bash
 # 1. Clone the Repository:
 git clone https://github.com/yourusername/RNASeq-Analysis-Pipeline.git
 cd RNASeq-Analysis-Pipeline
@@ -110,12 +109,11 @@ bash Pipeline/rna_seq.sh
 # Use the R script 'DE_seq.R' in the bin directory (or follow the in-repository documentation)
 # to perform differential expression analysis and generate visual reports.
 Rscript bin/DE_seq.R
-```
+
 ---
 
 ##Additional Resources
 
-```bash
 - [SRA Toolkit Documentation](https://github.com/ncbi/sra-tools)
 - [FastQC User Guide](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 - [MultiQC Documentation](https://multiqc.info/)
@@ -124,4 +122,4 @@ Rscript bin/DE_seq.R
 - [Samtools Documentation](http://www.htslib.org/)
 - [featureCounts Guide](http://bioinf.wehi.edu.au/featureCounts/)
 - [DESeq2 Vignette](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
-```
+
