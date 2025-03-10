@@ -83,7 +83,6 @@ This project provides a robust and flexible pipeline for processing RNA sequenci
     └── volcano plot.png
 ```
 
-##How to Get Started
 # 1. Clone the Repository:
 git clone https://github.com/yourusername/RNASeq-Analysis-Pipeline.git
 cd RNASeq-Analysis-Pipeline
