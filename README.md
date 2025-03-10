@@ -111,6 +111,8 @@ bash Pipeline/rna_seq.sh
 # to perform differential expression analysis and generate visual reports.
 Rscript bin/DE_seq.R
 ```
+---
+
 ##Additional Resources
 
 ```bash
