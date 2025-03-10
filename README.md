@@ -82,9 +82,8 @@ This project provides a robust and flexible pipeline for processing RNA sequenci
     ├── pca plot.png
     └── volcano plot.png
 ```
----
-## How to Get Started
-
+How to Get Started
+bash
 # 1. Clone the Repository:
 git clone https://github.com/yourusername/RNASeq-Analysis-Pipeline.git
 cd RNASeq-Analysis-Pipeline
@@ -109,17 +108,3 @@ bash Pipeline/rna_seq.sh
 # Use the R script 'DE_seq.R' in the bin directory (or follow the in-repository documentation)
 # to perform differential expression analysis and generate visual reports.
 Rscript bin/DE_seq.R
-
----
-
-##Additional Resources
-
-- [SRA Toolkit Documentation](https://github.com/ncbi/sra-tools)
-- [FastQC User Guide](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
-- [MultiQC Documentation](https://multiqc.info/)
-- [Trimmomatic Documentation](http://www.usadellab.org/cms/?page=trimmomatic)
-- [HISAT2 Manual](https://ccb.jhu.edu/software/hisat2/index.shtml)
-- [Samtools Documentation](http://www.htslib.org/)
-- [featureCounts Guide](http://bioinf.wehi.edu.au/featureCounts/)
-- [DESeq2 Vignette](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
-
