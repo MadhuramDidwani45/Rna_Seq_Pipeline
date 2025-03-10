@@ -82,7 +82,7 @@ This project provides a robust and flexible pipeline for processing RNA sequenci
     ├── pca plot.png
     └── volcano plot.png
 ```
-How to Get Started
+##How to Get Started
 
 # 1. Clone the Repository:
 ```bash
@@ -91,8 +91,10 @@ cd RNASeq-Analysis-Pipeline
 ```
 
 # 2. Install Dependencies:
+```bash
 # Ensure all required tools and R packages are installed.
 # Refer to the System & Software Requirements section above.
+```
 
 # 3. Run the Pipeline:
 
