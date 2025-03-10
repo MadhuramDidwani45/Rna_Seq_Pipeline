@@ -83,10 +83,12 @@ This project provides a robust and flexible pipeline for processing RNA sequenci
     └── volcano plot.png
 ```
 How to Get Started
-bash
+
 # 1. Clone the Repository:
+```bash
 git clone https://github.com/yourusername/RNASeq-Analysis-Pipeline.git
 cd RNASeq-Analysis-Pipeline
+```
 
 # 2. Install Dependencies:
 # Ensure all required tools and R packages are installed.
@@ -97,12 +99,16 @@ cd RNASeq-Analysis-Pipeline
 # Data Retrieval:
 # Execute the 'data.sh' script in the Data directory to download RNA-Seq datasets,
 # reference genome, and annotation files.
-bash Data/data.sh
+```bash
+Data/data.sh
+```
 
 # Processing:
 # Run the 'rna_seq.sh' script in the Pipeline directory to perform quality control,
 # alignment, and quantification.
-bash Pipeline/rna_seq.sh
+```bash
+Pipeline/rna_seq.sh
+```
 
 # Analysis:
 # Use the R script 'DE_seq.R' in the bin directory (or follow the in-repository documentation)
